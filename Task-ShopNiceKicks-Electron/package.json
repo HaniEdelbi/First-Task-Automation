@@ -1,0 +1,23 @@
+{
+  "name": "task-shopnicekicks-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^37.2.5"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "test-automation": "node automation.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.1.1",
+    "puppeteer": "^24.15.0"
+  }
+}
